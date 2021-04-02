@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: orange;
+}
+.godown{
+ width: 5rem;
+ height: 2rem;
+    position: fixed;
+    background: blue;
+    color: white;
+    left: 88%;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.godown a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+h1,h2,h3,h4{
+    text-transform: capitalize;
+    padding: 0rem .5rem;
+}
+h3{
+    color: fuchsia;
+}
+h4{
+    color: green;
+}
+p{
+    padding: 0rem .5rem;
+}
+.container{
+    width: 80%;
+    background: white;
+    height: 3rem;
+    margin: auto;
+    height: auto;
+}
+.min_titale{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    text-transform: capitalize;
+}
+.titale{
+    background: orange;
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+    padding: 1rem 0.5rem;
+    text-transform: capitalize;
+    border: .3rem solid white;
+    border-radius: 1rem;
+}
+.love_caculator{
+    background: #ebebeb;
+    padding: 1rem 2rem;
+}
+
+.love_caculator input{
+    width: 40%;
+    height: 2rem;
+    border: .1rem solid orange;
+    margin: auto;
+}
+.love_caculator button{
+    width: 25%;
+    padding: 1rem;
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border: .2rem solid orange;
+}
+.love_caculator h5{
+    color: white;
+    background: orange;
+    text-align: center;
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.stringtest{
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    background: black;
+    border: .2rem solid orange;
+}
+.stringtest input{
+    width: 50%;
+    padding: .5rem;
+}
+.outputstring{
+    color: white;
+}
+.stringbtn{
+    width: 20%;
+    height: 2rem;
+    transition: all .2s;
+    border: .15rem solid orange;
+    box-shadow: -.1rem .2rem 0rem .1rem white;  
+}
+.stringbtn:active{
+    box-shadow: 0rem 0rem 0rem 0rem white;
+}

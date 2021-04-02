@@ -1,0 +1,100 @@
+.anisul_vai{
+    width: 100%;
+    height: 15%;
+    background: black;
+    border: 1rem solid orange;
+}
+.anisul_vai h1{
+    color: orange;
+    font-size: 4rem;
+    text-align: center;
+}
+.anisul_vai h1 a{
+    color: orange;
+    text-decoration: none;
+}
+/*
+.container{
+    max-width: 90%;
+    margin: auto;
+    color: aliceblue;
+}
+/*  calculator  */ /*
+.calculator{
+    position: relative;
+    display: grid;
+    color: black;
+}
+.calculator .value{
+    grid-column: sapn 4;
+    height: 10rem;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+.calculator sapn{
+    display: grid;
+    width: 6rem;
+    background: black;
+    height: 6rem;
+    color: #fff;
+    place-items:center;
+    border: .1rem solid rgba(0,0,0,.1);
+}
+.calculator sapn:active{
+    backface-visibility: #74ff3b;
+    color: #111;
+}
+.calculator sapn.clear{
+    grid-column: apan 2;
+    width: 12rem;
+    background: #ff3077;
+}
+.calculator sapn.puls{
+ grid-row: span 2;
+    height: 12rem;
+}
+
+*/
+.add_images {
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+}
+.add_images img{
+    width: 100%;
+    height: 100%;
+}
+.saider_image {
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+    margin: auto;
+}
+.saider_image img{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.saider_image button{
+    position: absolute;
+    width: 5rem;
+    height: 2.5rem;
+}
+.saider_image button:nth-child(3){
+    background: red;
+}
+.saider_image button:first-child{
+    background: orange;
+}
+.addc{
+  width: 50%;
+    text-align: center;
+    background: orange;
+    border: .3rem solid black;
+    font-size: 2.2rem;
+    margin: auto;
+}
+.addc

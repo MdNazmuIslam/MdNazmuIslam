@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.success{
+    height: 100vh;
+    background: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-shadow: .3rem .3rem orange;
+    text-align: center
+}
+.titale{
+    color: orange;
+    text-align: center;
+    border: .2rem solid black;
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.fastform{
+    width: 50%;
+    margin: auto;
+    border: .2rem solid orange;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.fastform h3{
+    color: orange;
+}
+.fastform input{
+    width: 90%;
+    font-size: 1.6rem;
+    padding: .5rem;
+    margin: .5rem 0rem;
+    border-radius: .2rem;
+}
+.fastform button{
+    width: 30%;
+    font-size: 1rem;
+    padding: .5rem 0rem;
+    border-radius: .3rem;
+}
+/*project one start*/
+.project1{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(87,189,130);
+    transition: background .5s ease;
+    position: relative;
+}
+.field-name,
+.field-email,
+.field-password,
+.field-finish{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 5rem;
+    width: 40rem;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+    transition: all .5s ease;
+}
+.field-name input,
+.field-email input,
+.field-password input,
+.field-finish input{
+    background: none;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+}
+.field-name i,
+.field-email i,
+.field-password i,
+.field-finish i{
+    padding: 1rem;
+    cursor: pointer;
+}
+.project1 form div.innactive{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+.project1 form div.active{
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(-50%, 50%);
+}
+
+@keyframes shake{
+    0%{
+        transform: translate(-50%,50%) rotate(0deg);
+    }
+    50%{
+        transform: translate(-50%,50%) rotate(10deg);
+    }
+    100%{
+        transform: translate(-50%,50%) rotate(0deg);
+    }
+}
+
+/*project one end*/
+
+
+/*project two start*/
+.notc{
+    text-align: center;
+    border: .2rem solid red;
+    padding: 1rem 0rem;
+    color: red;
+    text-transform: capitalize;
+    
+}
+#project2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    color: white;
+}
+.location,
+.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    
+}
+.degree-section span{
+    margin: 1rem;
+    font-size: 3rem;
+}
+.degree-section h2{
+    font-size: 4rem;
+}
+
+
+
+/*project two end*/
+
+
+/*project three start*/
+.slider{
+    width: 100%;
+}
+.carousel-container{
+    overflow: hidden;
+    border: .3rem solid orange;
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 50rem;
+}
+
+
+
+
+
+
+
+
+/*project three end*/
+
+
+/*project two start*/
+/*project two end*/
+
+
+
+/*project two start*/
+/*project two end*/
+
+
+/*project two start*/
+/*project two end*/
+
+
+/*project two start*/
+/*project two end*/
+
+
+/*project two start*/
+/*project two end*/
+
+
+/*project two start*/
+/*project two end*/
+
+
+/*project two start*/
+/*project two end*/
+
+
+/*project two start*/
+/*project two end*/

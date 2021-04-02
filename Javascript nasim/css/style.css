@@ -1,0 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+.Nasim{
+    color: orange;
+    background: black;
+    text-align: center;
+    border: .5rem solid orange; 
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.details p{
+    width: 89%;
+    margin-left: 10%;
+}
+.Nazmul,.Mohidul,.sulaiman,.ashik,.saidul,.sujon,.aminul{
+    width: 40%;
+    display: inline-block;
+    background:black;
+    color: white;
+    font-weight: 600;
+    margin: 1rem;
+    border: .3rem solid orange;
+}
+

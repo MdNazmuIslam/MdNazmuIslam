@@ -1,0 +1,47 @@
+.W3s{
+    width: 100%;
+    height: auto;
+    background: black;
+    border: .5rem solid orange;
+    transition: 3s;
+}
+.W3s h1{
+    color: white;
+    text-align: center;
+    font-size: 4.5rem;
+    padding: 2rem 0rem;
+
+}
+.addw3s1{
+    color: black !important;
+    animation-name: addw3s1;
+    animation-direction: 3s;
+}
+@keyframes addw3s1{
+    from{font-size: 0rem;}
+    to{font-size: 4.5rem;}
+}
+.addw3s{
+    background: orange;
+    border: .5rem solid black;
+    animation-name: w3sc;
+    animation-direction: 3s;
+    transition: 3s;
+}
+@keyframes w3sc{
+    from{width: 0%;margin-top: 550rem;}
+    to{width: 100%;margin-top: 0rem;}
+}
+h1{
+    width: 90%;
+    margin: auto;
+    border: .3rem solid orange;
+    padding: 1rem 0.5rem;
+}
+h3{
+    background: black;
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+

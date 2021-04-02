@@ -1,0 +1,180 @@
+
+
+body{
+    text-align: center;
+}
+
+.clock{
+    width: 50rem;
+    height: 50rem;
+    background: orange;
+    display: inline-block;
+    border: 1rem solid black;
+    padding: 2rem;
+    border-radius: 50%;
+/*
+    background: url(facebook2.png);
+    background-size: cover
+*/
+}
+.sec,.min,.hour{
+    line-height: 4.5rem;
+    position: relative;
+    transform-origin: bottom;
+}
+.sec{
+    height: 25rem;
+    width: .5rem;
+    left: 24.5rem;
+    background: white;
+    z-index: 3;
+    border-radius: 1rem 1rem 0rem 0rem;
+    animation: sec_anim 10s linear infinite;
+}
+.min{
+    height: 25rem;
+    width: 1rem;
+    left: 24.2rem;
+    background: black;
+    z-index: 2;
+   top: -25rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+     animation: min_anim 60s linear infinite;
+}
+
+.hour{
+    height: 10rem;
+    width: 1.4rem;
+    left: 24rem;
+    background: red;
+    z-index: 1;
+    top: -35rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+     animation: hour_anim 360s linear infinite;
+}
+
+
+@keyframes sec_anim{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes min_anim{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes hour_anim{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{
+    font-family: arial;
+    font-size: 3.7rem;
+    position: relative;
+    color: black;
+    text-shadow: 00 1rem red;
+    z-index: 0;
+}
+
+.one{
+    top: -60rem;
+    left: 10.3rem;
+}
+.two{
+    top: -55rem;
+    left: 19.3rem;
+}
+
+.three{
+    top: -48rem;
+    left: 23rem;
+}
+.four{
+    top: -40rem;
+    left: 20.5rem;
+}
+.five{
+    top: -36rem;
+    left: 14rem;
+}
+.six{
+    top: -35rem;
+    left: 0rem;
+}
+.seven{
+    top: -45rem;
+    left: -13rem;
+}
+.eight{
+    top: -58rem;
+    left: -21rem;
+}
+.nine{
+    top: -72rem;
+    left: -23rem;
+}
+.ten{
+    top: -86rem;
+    left: -20rem;
+}
+.eleven{
+    top: -98rem;
+    left: -16rem;
+}
+.twelve{
+    top: -108rem;
+    left: 0rem;
+}
+
+.box{
+    width: 20rem;
+    height: 20rem;
+    background: orange;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 2rem;
+    border: .5rem solid black;
+}
+.box:after{
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: black;
+    z-index: 2;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: .5rem;
+    
+}
+.line1{
+position: relative;
+}
+.hr1,.hr2{
+    position: absolute;
+    width: .5rem;
+    height: 7rem;
+    background: white;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+    position: relative;
+    transform-origin: center;
+    animation: myanim .3s linear infinite;
+}
+.hr2{
+    width: .7rem;
+    height: 5rem;
+    top: 1rem;
+    margin-top: -7rem;
+    background: black;
+    animation: myanim2 .3s linear infinite;
+}
+@keyframes myanim{
+    from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
+}
+@keyframes myanim2{
+    from{ transform: rotate(6deg); }
+    to{ transform: rotate(360deg); }
+}
